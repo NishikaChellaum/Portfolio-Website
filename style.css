@@ -524,10 +524,15 @@ span{
         margin-bottom: 3rem;
     }
     .services h2{
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
     }
     .services-container{
         grid-template-columns: repeat(1,1fr);
+        margin:0 1rem;
+    }
+    .services{
+        padding-bottom:5rem;
+        margin:2rem 0;
     }
     .services-container .services {
         padding-bottom: 7rem;
