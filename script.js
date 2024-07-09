@@ -2,7 +2,9 @@ let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 let sections = document.querySelectorAll('section'); 
 let navLinks = document.querySelectorAll('header nav a'); 
-
+function togglemobilemenu(){
+    navbar.classList.toggle('active');
+}
 window.onscroll = () => {
     sections.forEach(sec => {
         let top = window.scrollY;
@@ -20,6 +22,6 @@ window.onscroll = () => {
 }
 
 menuIcon.onclick = () => {
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
+menuIcon.classList.toggle('bx-x');
+    togglemobilemenu();
 }
