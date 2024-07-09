@@ -10,6 +10,8 @@ Features
 
 Usage
 This portfolio website serves as a platform to:
+
 -Display my skills and projects.
+
 -Provide an easy way for potential employers or collaborators to contact me.
 -Share detailed information about my background and professional experiences.
