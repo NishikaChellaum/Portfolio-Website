@@ -320,7 +320,7 @@ span{
 .service-box{
     background-color: var(--main-color);
     color: black;
-    height: 400px;
+    height: 250px;
     border-radius: 3rem;
     cursor: pointer;
     transition: 0.3s ease-in-out;
