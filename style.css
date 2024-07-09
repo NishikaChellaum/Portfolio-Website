@@ -540,7 +540,7 @@ span{
         grid-template-columns: 1fr; 
         padding: 0 10px; 
     }
-    .service-item {
-        margin-bottom: 1rem; 
+    .service-box{
+        max-height:250px;
     }
 }
