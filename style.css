@@ -45,6 +45,11 @@ body{
 .logo:hover{
     transform: scale(1.1);
 }
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 
 .navbar a{
     font-size: 1.8rem;
@@ -542,6 +547,28 @@ span{
         word-wrap: break-word; /* Ensure text wraps within the container */
     }
 }
-
+@media (max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+    
+    .navbar {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.6);
+    }
+    
+    .navbar.active {
+        display: flex;
+    }
+    
+    .navbar a {
+        margin: 1rem 0;
+    }
+}
 
 
