@@ -807,5 +807,20 @@ section{
         word-wrap: break-word; /* Ensure text wraps within the container */
     }
 }
+@media (max-width: 768px) {
+    .container1 {
+        width: 100%;
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .radial-bars .radial-bar {
+        width: 100%;
+    }
+
+    .Technical-skills, .Professional-skills {
+        margin-bottom: 30px;
+    }
+}
 
 
