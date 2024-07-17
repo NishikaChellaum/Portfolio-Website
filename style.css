@@ -822,5 +822,17 @@ section{
         margin-bottom: 50px;
     }
 }
+@media (max-width: 600px) {
+      .container1 {
+        width: 100%;
+        margin-left: 0;
+        padding: 20px;
+    }
 
-
+    .radial-bars .radial-bar {
+        width: 100%;
+    }
+    
+ .Technical-skills, .Professional-skills {
+        margin-bottom: 70px;
+    }
