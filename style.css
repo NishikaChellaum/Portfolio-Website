@@ -45,6 +45,11 @@ body{
 .logo:hover{
     transform: scale(1.1);
 }
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 
 .navbar a{
     font-size: 1.8rem;
