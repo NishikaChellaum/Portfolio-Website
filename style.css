@@ -453,13 +453,16 @@ section{
     width: 70%;
 }
 .progress-line.python span{
+    width: 70%;
+}
+.progress-line.java span{
     width: 50%;
 }
 .progress-line.react span{
     width: 40%;
 }
 .progress-line.c span{
-    width: 80%;
+    width: 90%;
 }
 .progress-line.dbms span{
     width: 75%;
@@ -487,13 +490,16 @@ section{
     content: "70%";
 }
 .progress-line.python span::after{
+    content: "70%";
+}
+.progress-line.java span::after{
     content: "50%";
 }
 .progress-line.react span::after{
     content: "40%";
 }
 .progress-line.c span::after{
-    content: "80%";
+    content: "90%";
 }
 .progress-line.dbms span::after{
     content: "75%";
@@ -863,5 +869,4 @@ section{
  .Technical-skills, .Professional-skills {
         margin-bottom: 70px;
     }
-
-
+}
